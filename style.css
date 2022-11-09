@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main-menu{
+    text-align: center;
+}
+.main-menu li{
+
+    display: inline-block;
+    margin-left: -5px;
+}
+.main-menu li a{
+    padding: 10px;
+    background: green;
+    color: aliceblue;
+    display: inline-block;
+    border: 1px solid red;
+}
+.main-menu li a:hover{
+    background: green;
+    transition: .3s;
+    border-color: orange;
+}
+.another{
+    background-image: url(img/dalibor-perina-kWPpRsuEcVk-unsplash.jpg);
+    background-position:right x;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px 0;
+
+}
+.test1{
+    height: 1000px;
+}
+.another h2{
+    text-align: center;
+}
